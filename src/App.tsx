@@ -239,7 +239,7 @@ export default function App() {
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
             <div style={{ width: 8, height: 8, borderRadius: '50%', background: col, boxShadow: `0 0 12px ${col}`, transition: 'all 0.4s ease' }} />
             <span style={{ fontFamily: 'Outfit, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.2em', color: '#64748b', textTransform: 'uppercase' }}>
-              Knowledge Navigator
+              Skill Tree
             </span>
           </div>
           <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 700, lineHeight: 1.1, margin: '0 0 16px', color: '#f1f5f9' }}>
@@ -250,7 +250,7 @@ export default function App() {
             <span style={{ color: '#e2e8f0', fontWeight: 500 }}>{DOMAINS.length} domains</span>{' '}
             and over <span style={{ color: '#e2e8f0', fontWeight: 500 }}>{totalFields} specialisations</span>.{' '}
             <span style={{ color: '#475569', fontStyle: 'italic' }}>
-              Note: this is not an exhaustive list — many emerging, interdisciplinary, and regional fields are not represented here.
+              Note: this is not an exhaustive list. Many emerging, interdisciplinary, and regional fields are not represented here.
             </span>
           </p>
         </div>
@@ -295,7 +295,7 @@ export default function App() {
           overflowY: 'auto',
           padding: '16px 0',
         }}>
-          <div style={{ padding: '0 16px 8px', fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', color: '#334155', textTransform: 'uppercase', fontFamily: 'Outfit, sans-serif' }}>
+          <div style={{ padding: '0 16px 8px', fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', color: '#b2caed', textTransform: 'uppercase', fontFamily: 'Outfit, sans-serif' }}>
             Domains
           </div>
           {DOMAINS.map((d, i) => {
